@@ -8,5 +8,12 @@
 			"onAutoForward": "notify"
 		}
 	},
-	"remoteUser": "odoo"
+	"remoteUser": "odoo",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"trinhanhngoc.vscode-odoo"
+			]
+		}
+	}
 }
