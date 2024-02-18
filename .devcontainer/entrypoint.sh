@@ -32,15 +32,15 @@ case "$1" in
     -- | odoo)
         shift
         if [[ "$1" == "scaffold" ]] ; then
-            exec /home/odoo/community/odoo-bin "$@"
+            exec /workspaces/odoo-spaces/odoo-bin "$@"
         else
             wait-for-psql.py ${DB_ARGS[@]} --timeout=30
-            exec /home/odoo/community/odoo-bin "$@" "${DB_ARGS[@]}"
+            exec /workspaces/odoo-spaces/odoo-bin "$@" "${DB_ARGS[@]}"
         fi
         ;;
     -*)
         wait-for-psql.py ${DB_ARGS[@]} --timeout=30
-        exec /home/odoo/community/odoo-bin "$@" "${DB_ARGS[@]}"
+        exec /workspaces/odoo-spaces/odoo-bin "$@" "${DB_ARGS[@]}"
         ;;
     *)
         exec "$@"

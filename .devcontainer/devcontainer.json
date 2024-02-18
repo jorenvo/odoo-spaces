@@ -10,6 +10,15 @@
 	},
 	"remoteUser": "odoo",
 	"customizations": {
+		"codespaces": {
+			"repositories": {
+				"jorenvo/enterprise-spaces": {
+					"permissions": {
+						"contents": "write"
+					}
+				}
+			}
+		},
 		"vscode": {
 			"extensions": [
 				"trinhanhngoc.vscode-odoo",
