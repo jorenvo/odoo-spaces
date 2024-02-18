@@ -7,7 +7,7 @@ COPY ./entrypoint.sh /
 
 # Install git
 USER root
-RUN apt-get update && apt-get -y install git
+RUN apt-get update && apt-get -y install git emacs-nox
 
 # Set default user when running the container
 USER odoo
