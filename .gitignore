@@ -4,6 +4,7 @@ _build/
 # dotfiles
 .*
 !.devcontainer
+!.vscode
 !.gitignore
 !.github
 !.mailmap
