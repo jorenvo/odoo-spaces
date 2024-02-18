@@ -12,7 +12,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"trinhanhngoc.vscode-odoo"
+				"trinhanhngoc.vscode-odoo",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	}
