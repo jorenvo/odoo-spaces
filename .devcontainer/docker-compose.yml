@@ -12,8 +12,7 @@ services:
       - 8069:8069
     volumes:
       - ..:/home/odoo/community
-    command: "-d test"
-
+    command: sleep infinity
 
   db:
     image: postgres:15

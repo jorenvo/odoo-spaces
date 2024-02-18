@@ -1,5 +1,12 @@
 {
 	"name": "Odoo & Postgres",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "odoo"
+	"service": "odoo",
+	"portsAttributes": {
+		"8069": {
+			"label": "Odoo HTTP",
+			"onAutoForward": "notify"
+		}
+	},
+	"remoteUser": "odoo"
 }
