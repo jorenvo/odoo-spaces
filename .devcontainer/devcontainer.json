@@ -25,5 +25,5 @@
 			]
 		}
 	},
-	"onCreateCommand": "bash .devcontainer/post-create.sh"
+	"onCreateCommand": "bash .devcontainer/on-create.sh"
 }
