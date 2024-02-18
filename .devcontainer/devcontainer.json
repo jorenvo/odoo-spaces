@@ -25,5 +25,6 @@
 				"ms-azuretools.vscode-docker"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "git clone https://github.com/jorenvo/enterprise-spaces.git /workspaces/enterprise-spaces"
 }

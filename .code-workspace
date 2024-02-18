@@ -1,0 +1,15 @@
+{
+    "folders": [
+      {
+        "path": "/workspaces/odoo-spaces",
+        "name": "community"
+      },
+      {
+        "path": "/workspaces/enterprise-spaces",
+        "name": "enterprise"
+      }
+    ],
+    "settings": {
+      "python.languageServer": "None"
+    }
+}

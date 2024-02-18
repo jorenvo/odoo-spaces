@@ -5,6 +5,7 @@ _build/
 .*
 !.devcontainer
 !.vscode
+!.code-workspace
 !.gitignore
 !.github
 !.mailmap
